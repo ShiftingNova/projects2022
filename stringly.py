@@ -24,14 +24,14 @@ def wordly(word,guess ):
             correct = correct +" "
         i = i+1
     return correct
-def first_repitition(s):
+def first_repetition(s):
     i = 0
     while i < len(s):
         if s[i] == s[i+1]:
             return i
         i = i+1
     return -1
-def last_repitition(s):
+def last_repetition(s):
     i = len(s)-1
     while i > 0:
         if s[i] == s[i-1]:
